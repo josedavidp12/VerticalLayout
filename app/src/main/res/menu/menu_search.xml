@@ -9,4 +9,22 @@
     app:actionViewClass="androidx.appcompat.widget.SearchView"
     app:showAsAction="always|collapseActionView"
     />
+    <item
+        android:id="@+id/opcion1"
+        android:title="Primera Opcion" />
+    <item
+        android:id="@+id/opcion2"
+        android:title="Segunda Opcion" />
+    <item
+        android:id="@+id/mas"
+        android:title="Mas opciones" >
+        <menu >
+            <item
+                android:id="@+id/opcion3"
+                android:title="Tercera Opcion" />
+            <item
+                android:id="@+id/opcion4"
+                android:title="Cuarta Opcion" />
+        </menu>
+    </item>
 </menu>
